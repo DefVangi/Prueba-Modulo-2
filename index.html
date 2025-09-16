@@ -1,24 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/styles.css">
+    <title>TuBici</title>
 </head>
+
 <body>
     <div class="contenedor_principal">
-    <header>
-        <!--SECCIÓN PARA BARRA Y MENU PARA MOVIL-->
-    </header>
-    <nav>
-        <!--BARRA LATERAL EN MODO ESCRITORIO-->
-    </nav>
-    <main>
-        <!--SECCIÓN DE CONTENIDO-->
-    </main>
-    <footer>
-        <!--CONTACTO Y ENLACES-->
-    </footer>
+        <header>
+            <!--SECCIÓN PARA BARRA Y MENU PARA MOVIL-->
+            <div class="logoytexto">
+                <img src="./assets/img/bike-fast.png" alt="TuBici_logo">
+                <span>TuBici</span>
+            </div>
+
+            <!--Nav para desktop-->
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="Inicio">Inicio</a></li>
+                    <li><a href="Inicio">Modelos</a></li>
+                    <li><a href="Inicio">Servicio Técnico</a></li>
+                    <li><a href="Inicio">Contacto</a></li>
+                </ul>
+            </nav>
+            <!--Menu para movil y tablet-->
+            <div class="img_menu">
+                <img src="./assets/img/menu.png" alt="menu">
+            </div>
+        </header>
+        <nav>
+            <!--BARRA LATERAL EN MODO ESCRITORIO-->
+            <span>Ordenar Por:</span>
+            <div class="desplegable">
+                <span>Precio</span>
+                <img src="./assets/img/chevron-down.png" alt="desplegar">
+            </div>
+        </nav>
+        <main>
+            <!--SECCIÓN DE CONTENIDO-->
+            <div class="contenedor_productos">
+                <div class="producto">
+                    <img src="./assets/img/Amsterdan.jpg" alt="Mod_Amsterdan">
+                    <div class="textos">
+                        <p>Byc Amsterdan</p>
+                    </div>
+                    <button>Ver más</button>
+                </div>
+                <div class="producto">
+                    <img src="./assets/img/City.jpg" alt="Mod_City">
+                    <div class="textos">
+                        <p>Byc City</p>
+                    </div>
+                    <button>Ver más</button>
+                </div>
+                <div class="producto">
+                    <img src="./assets/img/Mount.jpg" alt="Mod_Mount">
+                    <div class="textos">
+                        <p>Mountain King</p>
+                    </div>
+                    <button>Ver más</button>
+                </div>
+                <div class="producto">
+                    <img src="./assets/img/Puerto.jpg" alt="Mod_Puerto">
+                    <div class="textos">
+                        <p>Byc Puerto</p>
+                    </div>
+                    <button>Ver más</button>
+                </div>
+                <div class="producto">
+                    <img src="./assets/img/Santiago.jpg" alt="Mod_Santiago">
+                    <div class="textos">
+                        <p>CityKing Santiago</p>
+                    </div>
+                    <button>Ver más</button>
+                </div>
+                <div class="producto">
+                    <img src="./assets/img/Street.jpg" alt="Mod_Street">
+                    <div class="textos">
+                        <p>StreetKing SK400</p>
+                    </div>
+                    <button>Ver más</button>
+                </div>
+            </div>
+            <div class="paginas">
+                <a href="#">&laquo;</a>
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">&raquo;</a>
+            </div>
+        </main>
+        <footer>
+            <!--CONTACTO Y ENLACES-->
+            <div class="iconos">
+                <img src="./assets/img/instagram.png" alt="instagram">
+                <img src="./assets/img/facebook.png" alt="facebook">
+            </div>
+            <div class="derechos">
+                <span>Todos los derechos reservados</span>
+            </div>
+        </footer>
     </div>
 </body>
+
 </html>
